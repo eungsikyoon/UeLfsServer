@@ -1,0 +1,10 @@
+# Visual Studio Code launch configuration file
+.vscode/launch.json
+
+node_modules/*
+dist/*
+log/*
+config/local.*
+
+yarn-error.log
+

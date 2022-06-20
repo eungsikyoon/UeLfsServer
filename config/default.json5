@@ -1,0 +1,27 @@
+{
+  repoRoot: '/home/esyoon/work/TestProject',
+  redisPoolCfg: {
+    redisCfg: {
+      host: 'localhost',
+      port: 6379,
+      db: 1,
+    },
+    poolCfg: {
+      min: 3,
+      max: 6,
+    },
+  },
+  apiServer: {
+    bindAddress: '0.0.0.0',
+    port: 15111,
+  },
+  log: {
+    console: {
+      level: 'verbose',
+    },
+    file: {
+      level: 'verbose',
+      datePattern: 'YYYY-MM-DD.HH',
+    },
+  },
+}

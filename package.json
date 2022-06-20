@@ -1,0 +1,44 @@
+{
+  "name": "uelfsd",
+  "version": "1.0.0",
+  "license": "MIT",
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "arrowParens": "always"
+  },
+  "description": "",
+  "dependencies": {
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "generic-pool": "^3.7.1",
+    "ioredis": "^4.14.1",
+    "logform": "^2.1.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "morgan": "^1.9.1",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.16",
+    "typedi": "^0.8.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.36",
+    "@types/express": "^4.17.2",
+    "@types/express-serve-static-core": "^4.17.2",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/node": "^13.1.8",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "------# start #------": "",
+    "start": "node -r source-map-support/register dist/server/uelfsd.js",
+    "------# common #------": "",
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": ""
+}
